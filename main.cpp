@@ -69,8 +69,8 @@ void meanShift(const Mat& input, Mat& output, float radius, int max_iter = 15, f
 
 int main() {
     //carico l'immagine di input
-    Mat input = imread("/home/edoardo/CLionProjects/MeanShiftClusterOpenMP/test_images/promuoviamo-paesaggio-italiano.jpg");
-    Mat originalInput = imread("/home/edoardo/CLionProjects/MeanShiftClusterOpenMP/test_images/promuoviamo-paesaggio-italiano.jpg");
+    Mat input = imread("/home/edoardo/CLionProjects/MeanShiftClusterOpenMP/test_images/paesaggio-grande.jpg");
+    Mat originalInput = imread("/home/edoardo/CLionProjects/MeanShiftClusterOpenMP/test_images/paesaggio-grande.jpg");
     resize(input, input, Size(), 0.5, 0.5, INTER_AREA);
     resize(originalInput, originalInput, Size(), 0.5, 0.5, INTER_AREA);
 
